@@ -22,14 +22,17 @@ public class MenuItem {
         if(option == 1){
             System.out.println(" The Coke[500 ML] Has Been ordered succesfully ");
         }
-        elseif(option == 2){
+        else if(option == 2){
             System.out.println(" The Chowmin Has Been Ordered Succesfully ");
         }
-        elseif(option == 3){
+        else if(option == 3){
             System.out.println(" The Steam MoMo Has Been ordered Successfully ");
         }
-        elseif(option == 4){
+        else if(option == 4){
             System.out.println(" The Egg MoMo Has Been ordered Successfully ");
+        }
+        else{
+            System.out.println("Invalid Option! Please Enter a Valid Option.");
         }
         sc.close();
     }
